@@ -1,61 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Muhammad Musa</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header class="header">
-      <a href="#" class="logo">Muhammad.</a>
 
-      <nav class="navbar">
-        <a href="#home" class="active">Home</a>
-        <a href="#about">About</a>
-        <a href="#">Skills</a>
-        <a href="#services">Services</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muhammad Musa</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-    <section class="homeCon" id="home">
-      <div class="heroCon">
-        <h1>Hi, I'm Muhammad Musa</h1>
-        <h3><span class="multiple-text"></span></h3>
-        <p>
-          Hi, I'm Muhammed Musa, an aspiring Frontend Developer and UI/UX
-          Designer. I blend functionality and aesthetics to create impactful
-          digital experiences. Explore my portfolio for a glimpse into my world
-          of web development and design.
-        </p>
-        <div class="heroBtn">
-          <a href="#">Hire me</a>
-          <a href="#">Let's Talk</a>
+<body>
+  <header class="header">
+    <a href="#" class="logo">Muhammad.</a>
+
+    <div class="bx bx-menu" id="menu-icon">
+      <ion-icon name="menu-outline"></ion-icon>
+    </div>
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Home section -->
+  <section class="homeCon" id="home">
+    <div class="heroCon">
+      <h1>Hi, I'm <span>Muhammad Musa</span></h1>
+      <div class="text-animate">
+        <h3>A passionate <span class="multiple-text"></span></h3>
+      </div>
+      <p>
+        Hi, I'm Muhammed Musa, an aspiring Frontend Developer and UI/UX
+        Designer. I blend functionality and aesthetics to create impactful
+        digital experiences. Explore my portfolio for a glimpse into my world
+        of web development and design.
+      </p>
+      <div class="heroBtn">
+        <a href="#" class="btn">Hire me</a>
+        <a href="#" class="btn">Let's Talk</a>
+      </div>
+    </div>
+    <div class="homeSocial">
+      <a href="https://www.facebook.com/Muhammedoofficial/" target="_blank"><ion-icon
+          name="logo-facebook"></ion-icon></a>
+      <a href="https://twitter.com/smallkay0" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+      <a href="https://ng.linkedin.com/in/musa-muhammed-olayinka-139321246" target="_blank"><ion-icon
+          name="logo-linkedin"></ion-icon></a>
+    </div>
+
+    <div>
+      <img src="Dev.jpg" alt="Muhammad" />
+    </div>
+    <span class="home-imgHover"></span>
+  </section>
+
+  <!-- About section -->
+  <section class="about" id="about">
+    <h2 class="heading">About <span>Me</span></h2>
+    <div class="about-img">
+      <img src="about.jpg" alt="Muhammed" />
+      <span class="circle-spin"></span>
+    </div>
+
+    <div class="about-content">
+      <h3>Frontend Developer!</h3>
+      <p>
+        I've always had a fascination with technology and design from an early
+        age. This curiosity led me to embark on my educational journey at DTL
+        Africa, where I'm honing my skills in Full Stack Development and UI/UX
+        Design. This dynamic dual focus allows me to understand the entire
+        lifecycle of a digital product, from concept to execution.
+      </p>
+      <div class="heroBtn btn">
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education section -->
+  <section class="experience" id="experience">
+    <h2 class="heading">My <span>journey</span></h2>
+
+    <div class="experience-row">
+      <div class="experience-column">
+        <h3 class="title">Experience</h3>
+
+        <div class="experience-box">
+          <div class="experience-content">
+            <div class="content">
+              <div class="year"><ion-icon name="calendar-outline"></ion-icon> 2021 - Present</div>
+              <h3>Google Knowledge Panel Specialist</h3>
+              <p>As a Google Knowledge Panel Specialist, I optimize online presence by managing and enhancing panels,
+                ensuring accurate and authoritative information.</p>
+            </div>
+          </div>
+
+          <div class="experience-box">
+            <div class="experience-content">
+              <div class="content">
+                <div class="year"><ion-icon name="calendar-outline"></ion-icon> 2021 - Present</div>
+                <h3>SEO Marketing Specialist</h3>
+                <p>I excel as an SEO Marketing Specialist, boosting online businesses through effective keyword
+                  research, optimization, and data-driven strategies. My proven track record includes increased traffic,
+                  conversions, and online presence.</p>
+              </div>
+            </div>
+
+            <div class="experience-box">
+              <div class="experience-content">
+                <div class="content">
+                  <div class="year"><ion-icon name="calendar-outline"></ion-icon> 2023 - Present</div>
+                  <h3>Web Developer</h3>
+                  <p>As a Web Developer, I excel in crafting responsive, user-friendly websites for diverse industries.
+                    My expertise spans both front-end and back-end development, ensuring seamless user experiences and
+                    efficient functionality using the latest technologies and best practices</p>
+                </div>
+              </div>
+
+              <div class="experience-box">
+                <div class="experience-content">
+                  <div class="content">
+                    <div class="year"><ion-icon name="calendar-outline"></ion-icon> 2023 - Present</div>
+                    <h3>UI/UX Design</h3>
+                    <p>I'm dedicated to crafting user-friendly interfaces that prioritize both aesthetics and usability.
+                      My design approach includes wireframing, prototyping, and user testing to ensure a seamless and
+                      delightful experience.</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+  </section>
+
+  <!-- Skill -->
+  <section class="skills" id="skills">
+    <h2 class="heading">My <span>Skills</span></h2>
+
+    <div class="skills-row">
+      <div class="skills-column">
+        <h3 class="title">Cding Skills</h3>
+
+        <div class="skills-box">
+          <div class="skills-content">
+            <div class="progress">
+              <h3>HTML <span>70%</span></h3>
+              <div class="bar"><span></span></div>
+            </div>
+
+            <div class="progress">
+              <h3>CSS <span>75%</span></h3>
+              <div class="bar"><span></span></div>
+            </div>
+
+            <div class="progress">
+              <h3>JavaScript <span>30%</span></h3>
+              <div class="bar"><span></span></div>
+            </div>
+
+          </div>
         </div>
       </div>
-      <div class="homeSocial">
-        <a href="https://www.facebook.com/Muhammedoofficial/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
-        <a href="https://twitter.com/smallkay0" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
-        <a href="https://ng.linkedin.com/in/musa-muhammed-olayinka-139321246" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+
+      <div class="skills-column">
+        <h3 class="title">Professional Skills</h3>
+
+        <div class="skills-box">
+          <div class="skills-content">
+            <div class="progress">
+              <h3>GKP <span>95%</span></h3>
+              <div class="bar"><span></span></div>
+            </div>
+
+            <div class="progress">
+              <h3>Web Development <span>65%</span></h3>
+              <div class="bar"><span></span></div>
+            </div>
+
+            <div class="progress">
+              <h3>Product Design <span>40%</span></h3>
+              <div class="bar"><span></span></div>
+            </div>
+
+            <div class="progress">
+              <h3>SEO Marketing <span>60%</span></h3>
+              <div class="bar"><span></span></div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section  -->
+  <section class="contact" id="contact">
+    <h2 class="heading">Let's <span>Connect!</span></h2>
+
+    <form action="#">
+      <div class="input-box">
+        <div class="input-field">
+          <input type="text" placeholder="Full Name" required>
+          <span class="focus"></span>
+        </div>
+
+        <div class="input-field">
+          <input type="email" placeholder="Input Your Email" required>
+          <span class="focus"></span>
+        </div>
+
       </div>
 
-      <div>
-        <img src="Dev.jpg" alt="Muhammad">
-    </div>
-      <span class="home-imgHover"></span>
-    </section>
+      <div class="input-box">
+        <div class="input-field">
+          <input type="number" placeholder="Mobile Number">
+          <span class="focus"></span>
+        </div>
 
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-    ></script>
-    <script src="app.js"></script>
-  </body>
+        <div class="input-field">
+          <input type="text" placeholder="Email Subject" required>
+          <span class="focus"></span>
+        </div>
+
+      </div>
+
+      <div class="textarea-field">
+        <textarea name="" id="" cols="30" rows="10" placeholder="Input Your Message" required></textarea>
+        <span class="focus"></span>
+      </div>
+
+      <div class="heroBtn btn">
+        <button type="submit" class="btn">submit</button>
+      </div>
+    </form>
+  </section>
+
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="app.js"></script>
+</body>
+
 </html>
