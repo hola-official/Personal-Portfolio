@@ -6,14 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Muhammad Musa</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaquary.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
   <header class="header">
     <a href="#" class="logo">Muhammad.</a>
 
-    <div class="bx bx-menu" id="menu-icon">
-      <ion-icon name="menu-outline"></ion-icon>
+    <div class="btn-mobile-nav" id="menu-icon">
+      <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+      <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
     </div>
     <nav class="navbar">
       <a href="#home" class="active">Home</a>
@@ -22,6 +25,8 @@
       <a href="#skills">Skills</a>
       <a href="#portfolio">Portfolio</a>
       <a href="#contact">Contact</a>
+
+      <span class="active-nav"></span>
     </nav>
   </header>
 
@@ -80,7 +85,7 @@
     </div>
   </section>
 
-  <!-- Education section -->
+  <!-- Experience section -->
   <section class="experience" id="experience">
     <h2 class="heading">My <span>journey</span></h2>
 
@@ -142,7 +147,7 @@
 
     <div class="skills-row">
       <div class="skills-column">
-        <h3 class="title">Cding Skills</h3>
+        <h3 class="title">Coding Skills</h3>
 
         <div class="skills-box">
           <div class="skills-content">
@@ -157,7 +162,7 @@
             </div>
 
             <div class="progress">
-              <h3>JavaScript <span>30%</span></h3>
+              <h3>JavaScript <span>10%</span></h3>
               <div class="bar"><span></span></div>
             </div>
 
@@ -237,6 +242,18 @@
       </div>
     </form>
   </section>
+
+  <!-- footer section  -->
+
+  <footer class="footer">
+    <div class="footer-text">
+      <p>Copyright &copy; 2023 by Muhammad | All Rights Reserved.</p>
+    </div>
+
+    <div class="footer-IconTop">
+      <a href="#"><ion-icon name="arrow-up-outline"></ion-icon></a>
+    </div>
+  </footer>
 
   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
