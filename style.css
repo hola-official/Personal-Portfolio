@@ -149,6 +149,21 @@ section {
   transition: .5s;
 }
 
+.heroBtn .btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #112e42;
+  z-index: -1;
+  transition: .5s;
+}
+
+.heroBtn .btn:hover::before {
+  width: 100%;
+}
 .heroBtn .btn:hover {
   color: #00abf0;
 }
