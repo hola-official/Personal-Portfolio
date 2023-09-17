@@ -9,6 +9,8 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   text-decoration: none;
+  color: inherit;
+  list-style-type: none;
 }
 
 html {
@@ -31,7 +33,7 @@ body {
   display: flex;
   justify-content: space-between;
   z-index: 100;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .header.sticky {
@@ -121,7 +123,6 @@ section {
   margin: 2rem 0 4rem;
 }
 
-
 .heroBtn {
   position: relative;
   display: flex;
@@ -143,14 +144,14 @@ section {
   font-size: 1.8rem;
   color: #081b29;
   font-weight: 600;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   z-index: 1;
   overflow: hidden;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .heroBtn .btn::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -158,7 +159,7 @@ section {
   height: 100%;
   background: #112e42;
   z-index: -1;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .heroBtn .btn:hover::before {
@@ -296,7 +297,7 @@ span {
 .about-img img {
   width: 90%;
   border-radius: 50%;
-  border: .3rem solid #00abf0;
+  border: 0.3rem solid #00abf0;
 }
 
 .about-img .circle-spin {
@@ -307,10 +308,10 @@ span {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  border-top: .2rem solid #112e42;
-  border-bottom: .2rem solid #112e42;
-  border-left: .2rem solid #00abf0;
-  border-right: .2rem solid #00abf0;
+  border-top: 0.2rem solid #112e42;
+  border-bottom: 0.2rem solid #112e42;
+  border-left: 0.2rem solid #00abf0;
+  border-right: 0.2rem solid #00abf0;
 }
 
 .about-content {
@@ -362,7 +363,7 @@ span {
 }
 
 .experience-column .experience-box {
-  border-left: .2rem solid #00abf0;
+  border-left: 0.2rem solid #00abf0;
 }
 
 .experience-box .experience-content {
@@ -371,7 +372,7 @@ span {
 }
 
 .experience-box .experience-content::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: -1.1rem;
@@ -384,14 +385,14 @@ span {
 .experience-content .content {
   position: relative;
   padding: 1.5rem;
-  border: .2rem solid #00abf0;
-  border-radius: .6rem;
+  border: 0.2rem solid #00abf0;
+  border-radius: 0.6rem;
   margin-bottom: 2rem;
   overflow: hidden;
 }
 
 .experience-content .content::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -399,7 +400,7 @@ span {
   height: 100%;
   background: #112e42;
   z-index: -1;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .experience-content .content:hover::before {
@@ -409,11 +410,11 @@ span {
 .experience-content .content .year {
   font-size: 1.5rem;
   color: #00abf0;
-  padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
 }
 
 .experience-content .content .year ion-icon {
-  padding-right: .5rem;
+  padding-right: 0.5rem;
 }
 
 .experience-content .content h3 {
@@ -422,7 +423,7 @@ span {
 
 .experience-content .content p {
   font-size: 1.6rem;
-  padding-top: .5rem;
+  padding-top: 0.5rem;
 }
 
 /* SKILL SECTION */
@@ -449,16 +450,15 @@ span {
 
 .skills-box .skills-content {
   position: relative;
-  border: .2rem solid #00abf0;
-  border-radius: .6rem;
-  padding: .5rem 1.5rem;
+  border: 0.2rem solid #00abf0;
+  border-radius: 0.6rem;
+  padding: 0.5rem 1.5rem;
   z-index: 1;
   overflow: hidden;
 }
 
-
 .skills-box .skills-content::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -466,7 +466,7 @@ span {
   height: 100%;
   background: #081b29;
   z-index: -1;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .skills-box .skills-content:hover::before {
@@ -488,16 +488,16 @@ span {
 
 .skills-content .progress .bar {
   height: 2.5rem;
-  border-radius: .6rem;
-  border: .2rem solid #00abf0;
-  padding: .5rem;
+  border-radius: 0.6rem;
+  border: 0.2rem solid #00abf0;
+  padding: 0.5rem;
   margin: 1rem 0;
 }
 
 .skills-content .progress .bar span {
   display: block;
   height: 100%;
-  border-radius: .3rem;
+  border-radius: 0.3rem;
   background: #00abf0;
 }
 
@@ -550,7 +550,7 @@ span {
 .contact form .input-box .input-field {
   position: relative;
   width: 49%;
-  margin: .8rem 0;
+  margin: 0.8rem 0;
 }
 
 .contact form .input-box .input-field input,
@@ -561,9 +561,8 @@ span {
   font-size: 1.6rem;
   color: #ededed;
   background: transparent;
-  border-radius: .6rem;
-  border: .2rem solid #00abf0;
-
+  border-radius: 0.6rem;
+  border: 0.2rem solid #00abf0;
 }
 
 .contact form .input-box .input-field input::placeholder,
@@ -578,21 +577,21 @@ span {
   width: 0;
   height: 100%;
   background: #112e42;
-  border-radius: .6rem;
+  border-radius: 0.6rem;
   z-index: -1;
-  transition: .5s;
+  transition: 0.5s;
 }
 
-.contact form .input-box .input-field input:focus~.focus,
-.contact form .input-box .input-field input:valid~.focus,
-.contact form .textarea-field textarea:focus~.focus,
-.contact form .textarea-field textarea:valid~.focus {
+.contact form .input-box .input-field input:focus ~ .focus,
+.contact form .input-box .input-field input:valid ~ .focus,
+.contact form .textarea-field textarea:focus ~ .focus,
+.contact form .textarea-field textarea:valid ~ .focus {
   width: 100%;
 }
 
 .contact form .textarea-field {
   position: relative;
-  margin: .8rem 0 2.7rem;
+  margin: 0.8rem 0 2.7rem;
   display: flex;
 }
 
@@ -603,6 +602,117 @@ span {
 .contact form .heroBtn .btn {
   cursor: pointer;
 }
+
+/*START SOCIAL PROFILE CSS*/
+
+.soWrap {
+  padding: 0rem 0% 0px;
+}
+.wrapper {
+  display: flex;
+  list-style: none;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper .icon {
+  position: relative;
+  background: #ffffff;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover ion-icon,
+.wrapper .facebook:hover .tooltip::before {
+  background: #1877F2;
+  color: #ffffff;
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover ion-icon,
+.wrapper .twitter:hover .tooltip::before {
+  background: #1DA1F2;
+  color: #ffffff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover ion-icon,
+.wrapper .instagram:hover .tooltip::before {
+  background: #E4405F;
+  color: #ffffff;
+}
+
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover ion-icon,
+.wrapper .github:hover .tooltip::before {
+  background: #333333;
+  color: #ffffff;
+}
+
+.wrapper .youtube:hover,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover ion-icon,
+.wrapper .youtube:hover .tooltip::before {
+  background: #CD201F;
+  color: #ffffff;
+}
+
+/*END SOCIAL PROFILE CSS*/
 
 /* Footer section  */
 .footer {
@@ -623,16 +733,16 @@ span {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  padding: .8rem;
+  padding: 0.8rem;
   background: #00abf0;
-  border: .2rem solid #00abf0;
-  border-radius: .6rem;
+  border: 0.2rem solid #00abf0;
+  border-radius: 0.6rem;
   z-index: 1;
   overflow: hidden;
 }
 
 .footer-IconTop a::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -640,7 +750,7 @@ span {
   height: 100%;
   background: #112e42;
   z-index: -1;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .footer-IconTop a:hover::before {
@@ -650,7 +760,7 @@ span {
 .footer-IconTop a ion-icon {
   font-size: 2.4rem;
   color: #081b29;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .footer-IconTop a:hover ion-icon {
