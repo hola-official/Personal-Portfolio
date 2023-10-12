@@ -3,20 +3,22 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Muhammad Musa</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="mediaquary.css">
+  <script src="https://kit.fontawesome.com/80089b956d.js" crossorigin="anonymous"></script>
   <link rel="shortcut icon" href="icons8-m-100.png" type="image/x-icon">
 </head>
 
 <body>
   <header class="header">
-    <a href="#" class="logo">Muhammad.</a>
+    <a href="#" class="logo">Muhammad.<span class="animate" style="--i:1"></span></a>
 
     <div class="btn-mobile-nav" id="menu-icon">
       <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
       <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      <span class="animate" style="--i:1"></span>
     </div>
     <nav class="navbar">
       <a href="#home" class="active">Home</a>
@@ -27,25 +29,29 @@
       <a href="#contact">Contact</a>
 
       <span class="active-nav"></span>
+      <span class="animate" style="--i:2"></span>
     </nav>
   </header>
 
   <!-- Home section -->
-  <section class="homeCon" id="home">
+  <section class="homeCon show-animate" id="home">
     <div class="heroCon">
-      <h1>Hi, I'm <span>Muhammad Musa</span></h1>
+      <h1>Hi, I'm <span>Muhammad Musa</span><span class="animate" style="--i:2"></span></h1>
       <div class="text-animate">
         <h3><span class="multiple-text"></span></h3>
+        <span class="animate" style="--i:3"></span>
       </div>
       <p>
         Hi, I'm Muhammed Musa, an aspiring Frontend Developer and UI/UX
         Designer. I blend functionality and aesthetics to create impactful
         digital experiences. Explore my portfolio for a glimpse into my world
         of web development and design.
+        <span class="animate" style="--i:4"></span>
       </p>
       <div class="heroBtn">
         <a href="https://ng.linkedin.com/in/musa-muhammed-olayinka-139321246" class="btn">Hire me</a>
         <a href="#" class="btn">Let's Talk</a>
+        <span class="animate" style="--i:5"></span>
       </div>
     </div>
     <div class="homeSocial">
@@ -54,17 +60,19 @@
       <a href="https://www.twitter.com/iam_mm4real/" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
       <a href="https://ng.linkedin.com/in/musa-muhammed-olayinka-139321246" target="_blank"><ion-icon
           name="logo-linkedin"></ion-icon></a>
+          <span class="animate" style="--i:6"></span>
     </div>
 
     <div>
       <img src="Dev.jpg" alt="Muhammad" />
     </div>
     <span class="home-imgHover"></span>
+    <span class="animate homeCon-img" style="--i:7"></span>
   </section>
 
   <!-- About section -->
   <section class="about" id="about">
-    <h2 class="heading">About <span>Me</span></h2>
+    <h2 class="heading">About <span>Me</span><span class="animate" style="--i:1"></span></h2>
     <div class="about-img">
       <img src="about.jpg" alt="Muhammed" />
       <span class="circle-spin"></span>
@@ -283,6 +291,7 @@
   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/139755516.js"></script>
   <script src="app.js"></script>
 </body>
 

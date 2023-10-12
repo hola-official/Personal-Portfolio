@@ -28,7 +28,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 2rem 9%;
+  padding: 2rem 4%;
   background: transparent;
   display: flex;
   justify-content: space-between;
@@ -47,6 +47,10 @@ body {
   font-weight: 600;
 }
 
+.navbar {
+  position: relative;
+}
+
 .navbar a {
   font-size: 1.7rem;
   color: #ededed;
@@ -61,6 +65,7 @@ body {
 }
 
 #menu-icon {
+  position: relative;
   font-size: 3.6rem;
   color: #ededed;
   cursor: pointer;
@@ -87,11 +92,13 @@ section {
 
 .heroCon {
   max-width: 60rem;
+  z-index: 99;
 }
 
 .heroCon h1 {
   position: relative;
-  font-size: 5.6rem;
+  display: inline-block;
+  font-size: 3.6rem;
   font-weight: 700;
   line-height: 1.3;
 }
@@ -250,18 +257,6 @@ section {
   opacity: 0.8;
 }
 
-@keyframes showRight {
-  100% {
-    width: 0;
-  }
-}
-
-@keyframes manipActiveHover {
-  100% {
-    pointer-events: auto;
-  }
-}
-
 /* About section */
 
 .about {
@@ -312,6 +307,7 @@ span {
   border-bottom: 0.2rem solid #112e42;
   border-left: 0.2rem solid #00abf0;
   border-right: 0.2rem solid #00abf0;
+  animation: aboutSpinner 8s linear infinite;
 }
 
 .about-content {
@@ -549,7 +545,7 @@ span {
 
 .contact form .input-box .input-field {
   position: relative;
-  width: 49%;
+  width: 100%;
   margin: 0.8rem 0;
 }
 
@@ -621,7 +617,7 @@ span {
   background: #ffffff;
   border-radius: 50%;
   padding: 15px;
-  margin: 10px;
+  margin: 5px;
   width: 50px;
   height: 50px;
   font-size: 18px;
@@ -676,7 +672,7 @@ span {
 .wrapper .facebook:hover .tooltip,
 .wrapper .facebook:hover ion-icon,
 .wrapper .facebook:hover .tooltip::before {
-  background: #1877F2;
+  background: #1877f2;
   color: #ffffff;
 }
 
@@ -684,7 +680,7 @@ span {
 .wrapper .twitter:hover .tooltip,
 .wrapper .twitter:hover ion-icon,
 .wrapper .twitter:hover .tooltip::before {
-  background: #1DA1F2;
+  background: #1da1f2;
   color: #ffffff;
 }
 
@@ -692,7 +688,7 @@ span {
 .wrapper .instagram:hover .tooltip,
 .wrapper .instagram:hover ion-icon,
 .wrapper .instagram:hover .tooltip::before {
-  background: #E4405F;
+  background: #e4405f;
   color: #ffffff;
 }
 
@@ -708,7 +704,7 @@ span {
 .wrapper .youtube:hover .tooltip,
 .wrapper .youtube:hover ion-icon,
 .wrapper .youtube:hover .tooltip::before {
-  background: #CD201F;
+  background: #cd201f;
   color: #ffffff;
 }
 
@@ -765,4 +761,53 @@ span {
 
 .footer-IconTop a:hover ion-icon {
   color: #00abf0;
+}
+
+/*ANIMATION RELOAD AND SCROLL*/
+
+/* .animate {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: #00abf0;
+  z-index: 98;
+} */
+
+/* .animate .homeCon-img{
+  width: 50%;
+}
+
+.logo .animate,
+.navbar .animate,
+#menu-icon .animate,
+.homeCon .show-animate .animate {
+  animation: showRight 1s ease forwards;
+  animation-delay: calc(.3s * var(--i));
+} */
+
+/*BREAKPOINTS*/
+@keyframes showRight {
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes manipActiveHover {
+  100% {
+    pointer-events: auto;
+  }
+}
+
+@keyframes aboutSpinner {
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes showRight {
+  100% {
+    width: 0;
+  }
 }
